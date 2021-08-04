@@ -1,11 +1,11 @@
 function reverseString(str) {
-  let arr = str.split('')
-  let newArr = []
+  let arr = str.split("");
+  let newArr = [];
   let reversedStr;
   for (let i = 0; i < arr.length; i++) {
-    newArr.unshift(arr[i])
+    newArr.unshift(arr[i]);
   }
-  reversedStr = "".concat(...newArr)
+  reversedStr = "".concat(...newArr);
   return reversedStr;
 }
 
