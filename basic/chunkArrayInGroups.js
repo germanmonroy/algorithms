@@ -14,3 +14,5 @@ function chunkArrayInGroups(arr, size) {
   if (temp.length !== 0) result.push(temp);
   return result;
 }
+
+chunkArrayInGroups(["a", "b", "c", "d"], 2);
